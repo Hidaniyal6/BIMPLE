@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+/* @media screen and (max-width: 1025px) {
+    #btn-team, #btn-ga, #btn-map{
+        width: 300px;
+    }
+  } */
+
+@media only screen and (max-width: 1025px) and (min-width: 570px) {
+
+    #btn-team,
+    #btn-ga,
+    #btn-map {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #btn-small {
+        display: none;
+    }
+}
